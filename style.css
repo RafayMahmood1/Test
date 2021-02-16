@@ -1,0 +1,309 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+body
+{
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.head
+{
+    height:18.5%;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+}
+.head h2
+{
+    padding:4.8% 40% 4.7% 4.9%;
+    color: white;
+    font-size: 35px; 
+    letter-spacing: 0; 
+    font-weight: 700; 
+    text-align: left; 
+}
+.heading
+{
+    height: 80px;
+    text-align: center;
+    width: 100%;
+}
+.heading h3
+{
+    padding: 5% 4.8% 3.5% 3.1%;
+    color: rgb(44, 44, 44);
+    font-size: 30px; 
+    color: #1A191D; 
+    letter-spacing: 0; 
+    font-weight: 700; 
+}
+.container
+{
+    padding-left: 4%;
+    width: 100%;
+}
+.subContainer
+{
+    width: 80%;
+    float: left;
+    background-color: white;
+    margin-left: 3%;
+    margin-top: 11.5%;
+    margin-bottom: 15px;
+    height: 25%;
+    background-position: center;
+    color: #333333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.subStarTop
+{
+    height: 10%;
+    padding: 4% 2% 2% 5%;
+}
+.subHeadContent
+{
+    height: 20%;
+    padding: 4% 2% 2% 5%;
+}
+.subHeadContent h4
+{
+    font-size: 22px; 
+    color: #1A191D; 
+    letter-spacing: 0; 
+    line-height: 28px; 
+     ; 
+    font-weight: 700; 
+    text-align: left;
+}
+.subBottomText
+{
+    height: 55%;
+    width: 90%;
+    padding: 4% 2% 2% 5%;
+}
+.subBottomText p
+{
+    font-weight: 400;
+}
+.subBottomRef
+{
+    height: 10%;
+    padding: 4% 5% 10% 5%;
+}
+.subBottomRef .left
+{
+    float: left;
+}
+.subBottomRef .right
+{
+    float: right;
+}
+.subBottomRef .right p
+{
+    font-size: 0.7em;
+}
+.checked
+{
+    color: rgb(115, 243, 200);
+}
+.owl-dots
+{
+    text-align: center;
+    margin-top: 2%;
+}
+.owl-dot
+{
+    display:inline-block;
+    height: 15px !important;
+    width: 15px !important;
+    background-color: #ddd !important;
+    opacity: 0.8;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+.owl-dot.active
+{
+    background-color: rgb(115, 243, 200) !important;
+}
+.black
+{
+    background-color: #333333;
+    height: 100%;
+}
+.bottomContainer
+{
+    width: 29%;
+    float: left;
+    background-color: white;
+    margin-left: 1%;
+    margin-right: 2%;
+    margin-top: 30px;
+    margin-bottom: 6%;
+    height: 300px;
+    background-position: center;
+    color: #333333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btmImg
+{
+    height: 45%;
+    background-color: white;
+    text-align: center;
+}
+.btmImg img
+{
+    width: 100%;
+    height: 100%;
+}
+.btmHeading
+{
+    height: 20%;
+    padding-top: 10%;
+    padding-left: 5%;
+    background-color: white;
+}
+.btmText
+{
+    height: 35%;
+    padding: 5% 2% 2% 5%;
+    background-color: white;
+
+}
+.btmText p
+{
+    font-size: 0.9em;
+    font-weight: 400;
+}
+.subBoxHeading
+{
+    height: 40%;
+    color: white;
+    padding: 8% 2% 3% 5%;
+}
+.subBoxHeading h3
+{
+    font-size: 30px;
+}
+.subBoxForm
+{
+    height: 30%;
+    color: white;
+    padding: 8% 2% 6% 5%;
+}
+.subBoxForm p
+{
+    font-size: 0.6em;
+    font-weight: 400;
+}
+input[type=text]
+{
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+}
+.submitButton
+{
+    border-radius: 24px;
+    padding:3% 8% 3% 8%;
+    background-color: rgb(115, 243, 200);
+    color: white;
+    border: 2px solid rgb(115, 243, 200);
+    font-weight: 900;
+}
+@media(min-width:2300px)
+{
+    .container
+    {
+        width: 80%;
+        padding-left: 20%;
+        padding-top: 5%;
+    }
+}
+@media(min-width:2000px)
+{
+    .subBoxForm
+    {
+        padding-top: 0;
+    }
+    .btmHeading
+    {
+        padding-top: 5%;
+    }
+}
+@media (max-width:600px)
+{
+    .head
+    {
+        height: 15.1%;
+    }
+    .subContainer
+    {
+        height: 30%;
+        margin-left: 5%;
+        width: 90%;
+    }
+    .heading h3
+    {
+        padding: 10% 5% 5% 5%;
+    }
+    .container
+    {
+        padding: 0;
+    }
+
+}
+@media (max-width:900px)
+{
+    .btmHeading
+    {
+        padding-top: 0;
+    }
+    .btmText
+    {
+        padding-top: 0;
+    }
+}
+@media screen and (max-width:700px)
+{
+    .bottomContainer
+    {
+        width: 90%;
+        float: center;
+        margin-left: 5%;
+    }
+    .btmImg img
+    {
+        height: 130px;
+    }
+    .btmHeading
+    {
+        padding-top: 15px;
+    }
+}
+ 
+@media (max-width:250px)
+{
+    .bottomContainer
+    {
+        height: 300px;
+    }
+    .btmImg
+    {
+        height: 30%;
+    }
+    .btmHeading
+    {
+        padding-top: 0;
+    }
+    .btmText
+    {
+        padding-top: 0;
+        height: 50%;
+    }
+}
